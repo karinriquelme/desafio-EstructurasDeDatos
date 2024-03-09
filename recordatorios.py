@@ -12,17 +12,6 @@ recordatorios.pop(1)
 recordatorios.append(["2021-12-25","22:00", "cena de navidad"])
 recordatorios.append(["2021-12-31","22:00", "cena de Año nuevo"])
 
-
-# nueva_agenda=[
-#     recordatorios[0],
-#     recordatorios[4],
-#     recordatorios[1],
-#     recordatorios[2],
-#     recordatorios[5],
-#     recordatorios[3],
-#     recordatorios[6]
-   
-# ]
 for fechas in sorted(recordatorios):
     print(fechas)
 
